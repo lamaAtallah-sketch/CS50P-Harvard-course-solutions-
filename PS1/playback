@@ -1,0 +1,14 @@
+def main():
+    speak = input("input: ")
+    print("output :", slow(speak))
+    
+def slow(talk):
+    return talk.replace(" ", "...")
+
+main()
+
+"""
+Eng.Lama Atallah 
+Playback PS1
+In a file called playback.py, implement a program that prompts the user for input and then outputs that same input, replacing each space with ...
+"""
